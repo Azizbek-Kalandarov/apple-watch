@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FD5659;
+    border-radius: 10px;
+}
+
+.apple-logo {
+    height: 55px;
+}
+
+.navbar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    display: flex;
+
+}
+
+.navbar-link a {
+    padding-bottom: 10px;
+    margin: 0 15px;
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+
+}
+
+.navbar-link a:hover {
+    border-bottom: 3px solid grey;
+    transition: 0.5s;
+    opacity: 1;
+    color: black;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 16px;
+    width: 165px;
+    margin-left: 25px;
+    caret-color: #FD5659;
+
+}
+
+
+
+.header-left {
+    width: 48%;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 186px;
+
+}
+
+.header-left h2 {
+    font-size: 36px;
+}
+
+.header-text {
+    margin: 50px 0;
+    border-left: 3px solid #999999;
+    padding-left: 25px;
+    color: #B4B4B4;
+    line-height: 22px;
+
+}
+
+header {
+    overflow: hidden;
+    background-image: url("../img/watches.jpg");
+    background-size: 600px 550px;
+    background-position: 130% 100%;
+    background-repeat: no-repeat;
+}
+
+.watch {
+    padding: 10px 15px;
+    background-color: #EA625C;
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.watch:hover {
+    background-color: #D9514C;
+
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.free {
+    font-size: 36px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.know {
+    width: 30%;
+    letter-spacing: -0.1px;
+    line-height: 25px;
+}
+
+.docs {
+    width: 5px;
+    height: 5px;
+    background-color: #CBCCCC;
+    display: inline-block;
+    margin: 4px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+
+}
+
+.progress {
+    width: 35px;
+    height: 3px;
+    background-color: #EA625C;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    transition: all ease 0.5s;
+}
+
+.learn {
+    text-decoration: none;
+    color: #EA625C;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+}
+
+.learn-more:hover .progress {
+    width: 60px;
+
+
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.section-two--left {
+    width: 50%;
+}
+
+.section-two--right {
+    width: 38%;
+}
+
+.section-two--right img {
+    width: 100%;
+
+}
+
+footer {
+    background: radial-gradient(circle at center, rgba(0,0,0,0.4), transparent), url("../img/runners.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.footer-text {
+    border-color: white;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+    header {
+        overflow: hidden;
+        background-image: url("../img/watches.jpg");
+        background-size: 600px 550px;
+        background-position: 120% 100%;
+        background-repeat: no-repeat;
+    }
+}
